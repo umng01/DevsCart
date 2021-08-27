@@ -1,0 +1,73 @@
+.ordersPage {
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+}
+
+.left {
+  flex: 1;
+  background-color: #eee;
+  font-size: 30px;
+  padding: 40px;
+  height: auto;
+  width: 100%;
+  margin: 10px;
+}
+.leftHeading {
+  padding: 20px;
+  border-bottom: 1px solid grey;
+  font-size: 35px;
+}
+
+hr {
+  margin-top: 10px;
+}
+
+.orders {
+  height: auto;
+  width: 100%;
+  margin-top: 30px;
+}
+.item {
+  width: 100%;
+  margin: 25px 0;
+  border-bottom: 1px solid grey;
+  display: flex;
+  padding: 40px;
+}
+
+.itemImage {
+  flex: 0.3;
+  cursor: pointer;
+}
+
+.itemDescription {
+  flex: 0.6;
+  color: #555;
+  font-size: 25px;
+  margin-left: 35px;
+  padding: 20px 10px;
+}
+
+.itemSeller {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.itemPrice {
+  color: #000;
+  font-size: 34px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.itemPrice span {
+  font-weight: normal;
+  font-size: 21px;
+  color: rgb(77, 77, 77);
+  text-decoration: line-through;
+}
+
+.itemImage img {
+  width: 300px;
+  height: 200px;
+}

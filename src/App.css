@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+.App {
+  text-align: center;
+  background-color:white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+.back{
+  margin: 0px;
+  background: #1e242a;
+}
+
